@@ -1,0 +1,173 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+
+        <header class="flex flex-row xs:p-5 md:px-5 md:m-auto md:items-center justify-between flex-wrap pt-010 pb-011 bg-white  lg:m-auto">
+            <a href="#" class="block mr-02">
+                <img src="images/nuntium-logo.png" alt="Nuntium Logo">
+            </a>
+            <button class="inline-block md:hidden w-8 h-8 bg-gray-200 text-gray-600 p-1">
+                <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
+            <nav id="toggle" class="flex-grow flex flex-col xs:hidden md:flex-row md:space-x-6 w-full md:w-auto bg-gray-100 md:bg-transparent p-6 md:p-0">
+                <a class="block font-bold text-xl xs:mb-2 font-custom leading-01 hover:underline" href="#">Home</a>
+                <a class="block font-normal text-xl mr-02 mb-2 font-custom leading-01 hover:underline" href="#">Tags</a>
+                <a class="block font-normal text-xl font-custom leading-01 hover:underline" href="#">About</a>
+            </nav>
+
+            <div class="xs:hidden">
+                <!-- <input class="placeholder-black text-lg leading-01 font-custom border-2 border-black bg-white py-2 px-5 pr-16 rounded-xl focus:outline-none"
+                type="search" name="search" placeholder="Search">
+                <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
+                <svg class="text-gray-600 h-4 w-4 fill-current" version="1.1" id="Capa_1" x="0px" y="0px"
+                    viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
+                    width="512px" height="512px">
+                    <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+                </svg>
+                </button> -->
+                <svg class="h-lg w-102 mr-02 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <a href="#" class="text-lg font-normal font-custom leading-01 py-2.5 px-10 border-2 rounded-xl border-black hover:bg-black hover:text-white">Login</a>
+            </div>
+        </header>
+        
+        <!-- End Header -->
+
+        <!-- Profile -->
+
+        <div class="xs:py-20 md:flex md:max-w-2xl md:m-auto md:items-center md:pt-013 md:mb-28">
+            <div class="md:mr-31">
+                <img class="xs:w-40 xs:h-40 xs:mx-auto" src="images/profile-picture.png" alt="">
+            </div>
+            <div>
+                <div class="xs:text-center xs:px-5 xs:max-w-sm xs:mx-auto md:max-w-md">
+                    <h1 class="xs:mt-5 xs:text-3xl text-05xl font-custom font-bold">Arthur Black</h1>
+                    <p class="font-OS font-normal text-base leading-04 text-black-light text-opacity-50">@arthurblack</p>
+                    <p class="font-OS font-normal text-base leading-04 text-black-light mb-4 mt-2">Ipsum adipisicing culpa est nisi consequat ex amet magna culpa veniam 
+                    tempor irure ea. Reprehenderit labore do tempor eiusmod in consectetur ex 
+                    sunt id mollit commodo ipsum deserunt quis.</p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <span class="mr-2">
+                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                                </svg>
+                            </span>
+                            <p class="font-OS font-normal text-base leading-04">arthurblack.com</p>
+                        </div>
+                        <div>
+                            <span class="text-2xl"><i class="fa fa-linkedin"></i></span>
+                            <span class="text-2xl mx-4"><i class="fa fa-instagram"></i></span>
+                            <span class="text-2xl"><i class="fa fa-twitter"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EndProfile -->
+
+        <!--  Section -->
+        <div class="xs:p-5 mx-40 flex flex-row justify-center md:justify-end md:pl-11 md:pr-016 lg:justify-end lg:pl-11 lg:m-auto py-7 lg:max-w-5xl lg:mx-auto lg:pr-016 bg-cover bg-no-repeat" style="background-image: url('images/profile-article.png');">
+            <div class="w-full bg-white xs:p-5 md:w-105 md:px-8 md:py-11">
+                <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">INTERIOR</p>
+                <h1 class="font-custom font-bold leading-03 mb-3 xs:text-lg xl:text-04xl ">Laborum Ullamco Sunt id ut Sunt</h1>
+                <p class="mb-3.5 font-OS text-base font-normal leading-04 text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                <p class="text-base font-normal font-OS">Proident aliquip velit qui commodo officia qui consectetur dolor ullamco aliquip elit incididunt. Ea minim ex consectetur excepteur. Ex laborum nostrud mollit sint consectetur Lorem amet aliqua do enim. Commodo duis dolor anim excepteur. In aliquip mollit nulla consequat velit magna.</p>
+            </div>
+        </div>
+        <!-- End  Section -->
+
+        <!-- Post Section 2 -->
+
+        <div class="pt-06 pb-05 md:flex md:justify-center md:px-5">
+
+            <div class="lg:mr-0">
+                <!-- 1st Row -->
+                <div class="xs:mb-10 flex flex-col xs:px-5 md:mb-14 md:justify-center md:flex-row md:items-center lg:w-94">
+                    <div class="xs:mb-3 md:flex md:mr-12">
+                        <img class="xs:w-full" src="images/post-img-1.png" alt="">
+                    </div>
+                    <div class="xs:w-full md:flex-row">
+                        <div class="md:max-w-md">
+                            <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">NATURE</p>
+                            <h2 class="font-custom font-bold leading-03 mb-01 mt-1 xs:text-lg md:text-2xl xl:text-04xl">Tempor deserunt Sunt Qui</h2>
+                            <p class="mb-11 font-OS text-base font-normal leading-04 text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                            <p class="text-base font-normal font-OS leading-6">Ea qui dolor aute cupidatat ad pariatur proident. Mollit nulla 
+                            tempor aute reprehenderit ut dolore mollit nisi consequat excepteur ex officia pariatur irure.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd Row -->
+                <div class="xs:mb-10 flex flex-col xs:px-5 md:mb-14 md:justify-center md:flex-row md:items-center lg:w-94">
+                    <div class="xs:mb-3 md:flex md:mr-12">
+                        <img class="xs:w-full" src="images/post-img-2.png" alt="">
+                    </div>
+                    <div class="xs:w-full md:flex-row">
+                        <div class="md:max-w-md">
+                            <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">PLANTS</p>
+                            <h2 class="font-custom font-bold leading-03 mb-01 mt-1 xs:text-lg md:text-2xl xl:text-04xl">Occaecat Anim eu Qui</h2>
+                            <p class="mb-11 font-OS text-base font-normal leading-04 text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                            <p class="text-base font-normal font-OS leading-6">Qui ipsum consectetur ad incididunt et aliquip exercitation laboris
+                            nisi reprehenderit. Et excepteur commodo esse enim ea aliqua officia reprehenderit.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd Row -->
+                <div class="xs:mb-10 flex flex-col xs:px-5 md:mb-14 md:justify-center md:flex-row md:items-center lg:w-94">
+                    <div class="xs:mb-3 md:flex md:mr-12">
+                        <img class="xs:w-full" src="images/post-img-3.png" alt="">
+                    </div>
+                    <div class="xs:w-full md:flex-row">
+                        <div class="md:max-w-md">
+                            <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">FOOD</p>
+                            <h2 class="font-custom font-bold leading-03 mb-01 mt-1 xs:text-lg md:text-2xl xl:text-04xl">Fugiat Incididunt Voluptate <br/> Consequat</h2>
+                            <p class="mb-11 font-OS text-base font-normal leading-04 text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                            <p class="text-base font-normal font-OS leading-6">Mollit ea culpa ipsum pariatur eiusmod. Irure et.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4th Row -->
+                <div class="xs:mb-10 flex flex-col xs:px-5 md:justify-center md:mb-14 md:flex-row md:items-center lg:w-94">
+                    <div class="xs:mb-3 md:flex md:mr-12">
+                        <img class="xs:w-full" src="images/post-img-4.png" alt="">
+                    </div>
+
+                    <div class="xs:w-full md:flex-row">
+                        <div class="md:max-w-md">
+                            <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">COLORFUL</p>
+                            <h2 class="font-custom font-bold leading-03 mb-01 mt-1 xs:text-lg md:text-2xl xl:text-04xl">Occaecat Anim eu Qui</h2>
+                            <p class="mb-11 font-OS text-base font-normal leading-04 text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                            <p class="text-base font-normal font-OS leading-6">Amet ipsum occaecat aliqua aute nisi laboris nostrud culpa 
+                            est do. Aliqua esse velit in excepteur esse qui voluptate laboris adipisicing qui irure elit amet excepteur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End Main Dev -->
+            
+        <!-- End Post Section 2 -->
+
+        
+
+        <script>
+            $(document).ready(function(){
+            $("button").click(function(){
+                $("nav").toggle();
+            });
+            });
+        </script>
+
+    </body>
+</html>

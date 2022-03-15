@@ -1,0 +1,241 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nuntium Blog Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+
+        <header class="flex flex-row xs:p-5 md:px-5 md:m-auto md:items-center justify-between flex-wrap pt-010 pb-011 bg-white  lg:m-auto">
+            <a href="#" class="block mr-02">
+                <img src="images/nuntium-logo.png" alt="Nuntium Logo">
+            </a>
+            <button class="inline-block md:hidden w-8 h-8 bg-gray-200 text-gray-600 p-1">
+                <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
+            <nav id="toggle" class="flex-grow flex flex-col xs:hidden md:flex-row md:space-x-6 w-full md:w-auto bg-gray-100 md:bg-transparent p-6 md:p-0">
+                <a class="block font-bold text-xl xs:mb-2 font-custom leading-01 hover:underline" href="#">Home</a>
+                <a class="block font-normal text-xl mr-02 mb-2 font-custom leading-01 hover:underline" href="#">Tags</a>
+                <a class="block font-normal text-xl font-custom leading-01 hover:underline" href="#">About</a>
+            </nav>
+
+            <div class="xs:hidden">
+                <!-- <input class="placeholder-black text-lg leading-01 font-custom border-2 border-black bg-white py-2 px-5 pr-16 rounded-xl focus:outline-none"
+                type="search" name="search" placeholder="Search">
+                <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
+                <svg class="text-gray-600 h-4 w-4 fill-current" version="1.1" id="Capa_1" x="0px" y="0px"
+                    viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
+                    width="512px" height="512px">
+                    <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+                </svg>
+                </button> -->
+                <svg class="h-lg w-102 mr-02 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <a href="#" class="text-lg font-normal font-custom leading-01 py-2.5 px-10 border-2 rounded-xl border-black hover:bg-black hover:text-white">Login</a>
+            </div>
+        </header>
+        
+        <!-- End Header -->
+
+        <!-- Banner Section -->
+
+        <div class="mx-5 pb-6 px-5 xs:p-5 pl-012 md:px-5 md:pb-24 xl:px-4 m-auto bg-cover bg-no-repeat" style="background-image: url('images/article-image.png');">
+            <div class="xs:m-auto xs:py-8 xs:px-4 bg-white pt-05 pb-06 px-10 md:w-91">
+                <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">FEATURED ARTICLE</p>
+                <h1 class="xs:text-lg text-04xl font-custom font-bold mb-3 leading-03">World’s Most Dangerous Technology Ever Made.</h1>
+                <p class="mb-3.5 leading-04 font-OS text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                <p class="text-base font-normal font-OS">Proident aliquip velit qui commodo officia qui consectetur dolor ullamco 
+                aliquip elit incididunt. Ea minim ex consectetur excepteur. Ex laborum nostrud mollit sint consectetur 
+                Lorem amet aliqua do enim. Commodo duis dolor anim excepteur. In aliquip mollit nulla consequat 
+                velit magna.</p>
+            </div>
+        </div>
+        
+        <!-- End Banner Section -->
+
+        <!-- Post Section -->
+
+        <div class="xs:pb-04 xs:pt-11 xs:m-auto md:flex-col md:pb-04 md:pt-11">
+            <div>
+                <h2 class="text-04xl font-bold text-center font-OS pb-01 xs:text-lg">Editor’s Picks</h2>
+                <div class="bg-black w-103 h-1 m-auto"></div>
+            </div>
+
+            <!-- 1st Row -->
+            <div class="xs:mb-10 xs:mt-10 flex flex-col px-5 md:flex-row md:justify-center md:items-center md:mt-15">
+                <div class="md:flex md:items-center md:mr-13">
+                    <img class="xs:w-full" src="images/rectangle-1.png" alt="">
+                </div>
+                
+                <div class="flex flex-col xs:mt-12 md:items-center md:flex-row">
+                    <div class="max-w-md md:order-2">
+                        <p class="text-xl font-normal font-OS text-black-light text-opacity-50">MINIMALISM</p>
+                        <h2 class="font-custom font-bold mb-3 leading-03 xs:text-lg md:text-2xl lg:text-04xl">Culpa sit Laboris <br/> Exercitation ea Fugiat</h2>
+                        <p class="mb-3.5 font-OS text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                        <p class="text-base font-normal font-OS">Incididunt occaecat et qui dolore consectetur magna. Lorem veniam ut et labore consequat ut ex sunt. Ut et nostrud aliquip do anim proident ad nulla consectetur eu aute ex anim mollit. Anim aute exercitation nisi fugiat. Dolor velit excepteur commodo proident nulla commodo ullamco labore et esse.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd Row -->
+            <div class=" xs:mb-10 flex flex-col px-5 md:flex-row md:justify-center md:items-center md:my-03 ">
+                <div class="md:flex md:items-center md:mr-13">
+                    <img class="xs:w-full" src="images/rectangle-2.png" alt="">
+                </div>
+                <div class="md:flex md:flex-col xs:mt-12 md:items-center md:flex-row">
+                    <div class="max-w-md md:order-2">
+                        <p class="text-xl font-normal font-OS text-black-light text-opacity-50">TECHNOLOGY</p>
+                        <h2 class="font-custom font-bold mb-3 leading-03 xs:text-lg md:text-2xl lg:text-04xl">Amet non Ex Officia <br/> nulla Cupidatat</h2>
+                        <p class="mb-3.5 font-OS text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                        <p class="text-base font-normal font-OS">Sint anim Lorem aute duis Lorem incididunt. Nulla nostrud irure id ipsum aute excepteur duis sint. Do occaecat sit dolor magna esse. Mollit incididunt cillum consectetur fugiat adipisicing dolor est id minim amet cillum esse Lorem. Deserunt non duis excepteur aliqua duis eu reprehenderit.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd Row -->
+            <div class=" xs:mb-10 flex flex-col px-5 md:px-5 md:flex-row md:justify-center md:items-center ">
+                <div class="md:flex md:items-center md:mr-13">
+                    <img class="xs:w-full" src="images/rectangle-3.png" alt="">
+                </div>
+                <div class="flex flex-col xs:mt-12 md:items-center md:flex-row">
+                    <div class="max-w-md md:order-2">
+                        <p class="text-xl font-normal font-OS text-black-light text-opacity-50">ARTICLE</p>
+                        <h2 class="font-custom font-bold mb-3 leading-03 xs:text-lg md:text-2xl lg:text-04xl">Dolor ex Tempor Cotur <br/> Culpa li</h2>
+                        <p class="mb-3.5 font-OS text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                        <p class="text-base font-normal font-OS">Incididunt sint nulla eu adipisicing eu reprehenderit proident consequat est. Nisi consectetur incididunt mollit officia ut cupidatat laborum proident eu velit Lorem deserunt deserunt voluptate. Proident nostrud laborum reprehenderit culpa irure id labore do ad do minim nisi. Incididunt ex.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Post Section -->
+
+        <!--  Section -->
+        <div class="xs:p-5 flex flex-row justify-center md:justify-end md:pl-11 md:pr-07 lg:justify-end lg:pl-11 m-auto py-03 lg:pr-07 bg-cover bg-no-repeat" style="background-image: url('images/featured-articles.png');">
+            <div class="w-full bg-white p-5 md:pt-05 md:w-91 md:pb-24 md:px-10 lg:w-91 lg:pt-05 lg:pb-24 lg:px-10">
+                <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">INTERIOR</p>
+                <h1 class="font-custom font-bold leading-03 mb-3 xs:text-lg xl:text-04xl ">Laborum Ullamco Sunt id ut Sunt</h1>
+                <p class="mb-3.5 font-OS text-base font-normal leading-04 text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                <p class="text-base font-normal font-OS">Proident aliquip velit qui commodo officia qui consectetur dolor ullamco aliquip elit incididunt. Ea minim ex consectetur excepteur. Ex laborum nostrud mollit sint consectetur Lorem amet aliqua do enim. Commodo duis dolor anim excepteur. In aliquip mollit nulla consequat velit magna.</p>
+            </div>
+        </div>
+        <!-- End  Section -->
+
+        <!-- Post Section 2 -->
+
+        <div class="pt-06 pb-05 md:flex md:justify-center md:px-5">
+            <!-- First column -->
+            <div class="md:mr-12 lg:mr-0">
+                <!-- 1st Row -->
+                <div class="xs:mb-10 flex flex-col xs:px-5 md:mb-14 md:flex-row md:items-center lg:w-94">
+                    <div class="xs:mb-3 md:flex md:mr-12">
+                        <img class="xs:w-full" src="images/post-img-1.png" alt="">
+                    </div>
+                    <div class="xs:w-full md:flex-row">
+                        <div class="md:max-w-md">
+                            <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">NATURE</p>
+                            <h2 class="font-custom font-bold leading-03 mb-01 mt-1 xs:text-lg md:text-2xl xl:text-04xl">Tempor deserunt Sunt Qui</h2>
+                            <p class="mb-11 font-OS text-base font-normal leading-04 text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                            <p class="text-base font-normal font-OS leading-6">Ea qui dolor aute cupidatat ad pariatur proident. Mollit nulla 
+                            tempor aute reprehenderit ut dolore mollit nisi consequat excepteur ex officia pariatur irure.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd Row -->
+                <div class="xs:mb-10 flex flex-col xs:px-5 md:mb-14 md:flex-row md:items-center lg:w-94">
+                    <div class="xs:mb-3 md:flex md:mr-12">
+                        <img class="xs:w-full" src="images/post-img-2.png" alt="">
+                    </div>
+                    <div class="xs:w-full md:flex-row">
+                        <div class="md:max-w-md">
+                            <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">PLANTS</p>
+                            <h2 class="font-custom font-bold leading-03 mb-01 mt-1 xs:text-lg md:text-2xl xl:text-04xl">Occaecat Anim eu Qui</h2>
+                            <p class="mb-11 font-OS text-base font-normal leading-04 text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                            <p class="text-base font-normal font-OS leading-6">Qui ipsum consectetur ad incididunt et aliquip exercitation laboris
+                            nisi reprehenderit. Et excepteur commodo esse enim ea aliqua officia reprehenderit.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd Row -->
+                <div class="xs:mb-10 flex flex-col xs:px-5 md:mb-14 md:flex-row md:items-center lg:w-94">
+                    <div class="xs:mb-3 md:flex md:mr-12">
+                        <img class="xs:w-full" src="images/post-img-3.png" alt="">
+                    </div>
+                    <div class="xs:w-full md:flex-row">
+                        <div class="md:max-w-md">
+                            <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">FOOD</p>
+                            <h2 class="font-custom font-bold leading-03 mb-01 mt-1 xs:text-lg md:text-2xl xl:text-04xl">Fugiat Incididunt Voluptate <br/> Consequat</h2>
+                            <p class="mb-11 font-OS text-base font-normal leading-04 text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                            <p class="text-base font-normal font-OS leading-6">Mollit ea culpa ipsum pariatur eiusmod. Irure et.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4th Row -->
+                <div class="xs:mb-10 flex flex-col xs:px-5 md:mb-14 md:flex-row md:items-center lg:w-94">
+                    <div class="xs:mb-3 md:flex md:mr-12">
+                        <img class="xs:w-full" src="images/post-img-4.png" alt="">
+                    </div>
+
+                    <div class="xs:w-full md:flex-row">
+                        <div class="md:max-w-md">
+                            <p class="text-xl font-normal font-OS leading-02 text-black-light text-opacity-50">COLORFUL</p>
+                            <h2 class="font-custom font-bold leading-03 mb-01 mt-1 xs:text-lg md:text-2xl xl:text-04xl">Occaecat Anim eu Qui</h2>
+                            <p class="mb-11 font-OS text-base font-normal leading-04 text-black-light text-opacity-50">Ralph Hawkins  .  May 7, 2019 (10 mins read)</p>
+                            <p class="text-base font-normal font-OS leading-6">Amet ipsum occaecat aliqua aute nisi laboris nostrud culpa 
+                            est do. Aliqua esse velit in excepteur esse qui voluptate laboris adipisicing qui irure elit amet excepteur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd Column -->
+            <div class="xs:px-5">
+                <h1 class="text-xl font-bold leading-02 font-OS xs:text-lg">tags</h1>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Technology</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Open Source</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">JavaScript</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Minimalism</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Self-help</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Animals</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Herbivores</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">HTML</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">CSS</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">PHP</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Web Technologies</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Career</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Life</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Spirituality</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Food</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Cooking</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Sports</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Racing</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Mountain Hiking</a>
+                <a class="block text-base font-normal font-OS leading-05" href="#">Cruising</a>
+            </div>
+        </div>
+
+        <!-- End Post Section 2 -->
+
+        
+
+        <script>
+            $(document).ready(function(){
+            $("button").click(function(){
+                $("nav").toggle();
+            });
+            });
+
+
+            $("#search_clickable").click(function() {
+            $("#search_clickable").hide();
+            $("#search_unclickable").show();
+            });
+        </script>
+
+    </body>
+</html>

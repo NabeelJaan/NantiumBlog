@@ -1,0 +1,148 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nuntium Blog Home</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+
+        <header class="flex flex-row xs:p-5 md:px-5 md:m-auto md:items-center justify-between flex-wrap pt-010 pb-011 bg-white  lg:m-auto">
+            <a href="#" class="block mr-02">
+                <img src="images/nuntium-logo.png" alt="Nuntium Logo">
+            </a>
+            <button class="inline-block md:hidden w-8 h-8 bg-gray-200 text-gray-600 p-1">
+                <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
+            <nav id="toggle" class="flex-grow flex flex-col xs:hidden md:flex-row md:space-x-6 w-full md:w-auto bg-gray-100 md:bg-transparent p-6 md:p-0">
+                <a class="block font-bold text-xl xs:mb-2 font-custom leading-01 hover:underline" href="#">Home</a>
+                <a class="block font-normal text-xl mr-02 mb-2 font-custom leading-01 hover:underline" href="#">Tags</a>
+                <a class="block font-normal text-xl font-custom leading-01 hover:underline" href="#">About</a>
+            </nav>
+
+            <div class="xs:hidden">
+                <!-- <input class="placeholder-black text-lg leading-01 font-custom border-2 border-black bg-white py-2 px-5 pr-16 rounded-xl focus:outline-none"
+                type="search" name="search" placeholder="Search">
+                <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
+                <svg class="text-gray-600 h-4 w-4 fill-current" version="1.1" id="Capa_1" x="0px" y="0px"
+                    viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
+                    width="512px" height="512px">
+                    <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+                </svg>
+                </button> -->
+                <svg class="h-lg w-102 mr-02 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <a href="#" class="text-lg font-normal font-custom leading-01 py-2.5 px-10 border-2 rounded-xl border-black hover:bg-black hover:text-white">Login</a>
+            </div>
+        </header>
+        
+        <!-- End Header -->
+
+       <!-- title -->
+       <div class="xs:py-16 md:py-20 xl:pb-020">
+           <div class="max-w-sm mx-auto text-center">
+               <img class="w-60 mx-auto mb-32" src="images/nuntium-logo.png" alt="">
+               <p class="font-custom text-xl font-normal">A publishing company that focuses on the essentials.</p>
+           </div>
+       </div>
+       <!-- end title -->
+
+       <!-- About Section -->
+
+       <div class="bg-black text-white xs:p-4 py-20 md:pb-021 md:pt-022 md:max-w-screen-xl md:mx-auto">
+           <!-- Section 1 -->
+            <div class="xs:order-1 md:px-8 md:flex md:justify-center">
+                <div class="mb-8 md:max-w-md md:mr-34">
+                    <h4 class="font-custom font-normal text-3xl lg:text-05xl lg:leading-07 mb-3">We tell stories that drives the heart.</h4>
+                    <p class="font-OS font-normal text-base">Laboris consectetur sunt nulla eiusmod voluptate eiusmod dolor nisi qui dolor cillum fugiat ad. Id sit mollit labore sunt sit culpa qui minim pariatur et officia elit id. Tempor cupidatat veniam esse ad veniam dolore excepteur tempor dolor consectetur ut id.</p>
+                </div>
+
+                <div class="">
+                    <img src="images/about-1.png" alt="">
+                </div>
+            </div>
+
+            <!-- Section 2 -->
+            <div class="xs:mb-12 lg:max-w-xl lg:mx-auto lg:-m-20 xl:max-w-xl xl:mx-auto xl:-m-32">
+                <div>
+                    <img class="lg:max-w-md xl:max-w-xl" src="images/about-2.png" alt="">
+                </div>
+                <div class="md:max-w-lg">
+                    <h4 class="font-custom font-normal text-3xl lg:text-05xl lg:leading-07 my-8">We tell the news that makes the most impact.</h4>
+                    <p class="font-OS font-normal text-base">Laboris consectetur sunt nulla eiusmod voluptate eiusmod dolor nisi qui dolor cillum fugiat ad. Id sit mollit labore sunt sit culpa qui minim pariatur et officia elit id. Tempor cupidatat veniam esse ad veniam dolore excepteur tempor dolor consectetur ut id.</p>
+                </div>
+            </div>
+            <!-- Section 3 -->
+            <div class="xs:mt-28 md:mt-35">
+                <div class="xs:mb-8 md:max-w-2xl mx-auto">
+                    <h4 class="font-custom font-normal text-3xl lg:text-05xl lg:leading-07 mb-32">We share the little moments that shows we’re alive.</h4>
+                    <p class="font-OS font-normal text-base">Laboris consectetur sunt nulla eiusmod voluptate eiusmod dolor nisi qui dolor cillum fugiat ad. Id sit mollit labore sunt sit culpa qui minim pariatur et officia elit id. Tempor cupidatat veniam esse ad veniam dolore excepteur tempor dolor consectetur ut id.</p>
+                </div>
+                <div class="md:flex md:justify-end md:mt-36">
+                    <div>
+                        <img class="xs:mx-auto" src="images/about-3.png" alt="">
+                    </div>
+                    <div class="xs:my-4 md:mx-5">
+                        <img class="xs:mx-auto" src="images/about-4.png" alt="">
+                    </div>
+                    <div>
+                        <img class="xs:mx-auto" src="images/about-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <!-- End About Section -->
+
+       <!-- CTA -->
+       <div class="py-20 md:py-24 xl:pt-018 xl:pb-019">
+            <div class="max-w-lg mx-auto text-center">
+                <h4 class="font-custom font-normal text-05xl leading-07 mb-33">Because we are you. Humans.</h4>
+                <p class="font-OS text-xl font-normal">Laboris consectetur sunt nulla eiusmod voluptate eiusmod dolor nisi qui dolor cillum fugiat ad..</p>
+            </div>
+        </div>
+    <!-- End CTA-->
+
+       <!-- Footer -->
+
+       <div class="bg-black xs:mx-4 xl:max-w-screen-xl mx-auto py-017">
+           <div class="text-center">
+            <h4 class="text-white font-custom font-normal text-04xl leading-10">want to connect?</h4>
+            <p class="text-white font-OS font-normal text-base max-w-xs mx-auto pt-01 pb-7">Laboris consectetur sunt nulla eiusmod voluptate eiusmod dolor nisi qui..</p>
+            <div>
+             <span class="text-2xl text-white"><i class="fa fa-linkedin"></i></span>
+             <span class="text-2xl text-white mx-4"><i class="fa fa-instagram"></i></span>
+             <span class="text-2xl text-white"><i class="fa fa-twitter"></i></span>
+           </div>
+        </div>
+       </div>
+
+       <!-- End footer -->
+
+
+
+
+
+
+        <script>
+            $(document).ready(function(){
+            $("button").click(function(){
+                $("nav").toggle();
+            });
+            });
+
+
+            $("#search_clickable").click(function() {
+            $("#search_clickable").hide();
+            $("#search_unclickable").show();
+            });
+        </script>
+
+    </body>
+</html>
